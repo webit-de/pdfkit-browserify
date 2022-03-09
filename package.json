@@ -23,8 +23,8 @@
   },
   "bugs": "http://github.com/devongovett/pdfkit/issues",
   "devDependencies": {
-    "browserify": "^16.2.2",
-    "pdfkit": "^0.8.3"
+    "browserify": "^17.0.0",
+    "pdfkit": "^0.13.0"
   },
   "scripts": {
     "build": "rm -f index.js && browserify -s PDFDocument node_modules/pdfkit -o index.js"
