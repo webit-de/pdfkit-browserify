@@ -10,7 +10,7 @@
     "document",
     "vector"
   ],
-  "version": "0.13.0",
+  "version": "0.13.1",
   "homepage": "http://pdfkit.org/",
   "author": {
     "name": "Devon Govett",
@@ -27,7 +27,7 @@
     "pdfkit": "^0.13.0"
   },
   "scripts": {
-    "build": "rm -f index.js && browserify -s PDFDocument node_modules/pdfkit -o index.js"
+    "build": "browserify -s PDFDocument node_modules/pdfkit -o index.js"
   },
   "main": "index.js"
 }
